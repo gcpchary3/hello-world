@@ -23,4 +23,4 @@ jobs:
               uses: actions/upload-artifact@v4
               with:
                 name: my-artifact
-                path: target/*.jar # this is demo
+                path: target/*.war # this is demo

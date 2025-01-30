@@ -3,7 +3,6 @@ on:
     push:
         branches:
             - 'master'
-            - 'master'
 
 jobs:
     build:
@@ -18,4 +17,4 @@ jobs:
               with:
                 java-version: '11'
             - name: Build with Maven
-              uses: mvn clean package
+              run: mvn clean package
